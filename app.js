@@ -17,8 +17,9 @@ app.get("/", function(req, res){
 	
 	//var a = Post.findAll();
 	//res.render("posts",{posts: a.rows});
-	var posts = [{titulo: "titulo", conteudo: "conteudo"}];
-	res.render("posts",{posts: posts});
+	//var posts = [{titulo: "titulo", conteudo: "conteudo"}];
+	//res.render("posts",{posts: posts});
+	res.render("form");
 });
 
 app.get("/rota", function(req, res){
